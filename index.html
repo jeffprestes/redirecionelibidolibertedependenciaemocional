@@ -1,0 +1,563 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>Redirecione sua Libido – Liberdade da Dependência Emocional</title>
+
+    <!-- PWA -->
+    <link rel="manifest" href="manifest.json" />
+    <meta name="theme-color" content="#c9a96e" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="Redirecione" />
+    <link rel="apple-touch-icon" href="icons/icon.svg" />
+
+    <!-- SEO -->
+    <meta
+      name="description"
+      content="Aprenda como se livrar da dependência emocional e redirecionar sua libido. Conteúdo sobre dependência emocional para homens e mulheres, integrando a energia vital de dentro para fora."
+    />
+    <meta
+      name="keywords"
+      content="dependência emocional, dependencia emocional para homens, como se livrar da dependencia emocional, libido, energia vital, liberdade emocional, psicologia junguiana, self, projeção emocional, relacionamentos saudáveis"
+    />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://linktr.ee/gabrielegarbinpsi" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Redirecione sua Libido – Liberdade da Dependência Emocional" />
+    <meta
+      property="og:description"
+      content="Aprenda como se livrar da dependência emocional e redirecionar sua libido. Conteúdo sobre dependência emocional para homens e mulheres."
+    />
+    <meta property="og:locale" content="pt_BR" />
+    <meta property="og:site_name" content="Gabriele Garbin Psicologia" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Redirecione sua Libido – Liberdade da Dependência Emocional" />
+    <meta
+      name="twitter:description"
+      content="Aprenda como se livrar da dependência emocional e redirecionar sua libido para uma vida mais plena e integrada."
+    />
+    <meta name="twitter:site" content="@gabrielegarbin" />
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "Redirecione sua Libido – Liberdade da Dependência Emocional",
+        "description": "Aprenda como se livrar da dependência emocional e redirecionar sua libido. Conteúdo sobre dependência emocional para homens e mulheres.",
+        "keywords": "dependência emocional para homens, como se livrar da dependência emocional, libido, liberdade emocional",
+        "inLanguage": "pt-BR",
+        "author": {
+          "@type": "Person",
+          "name": "Gabriele Garbin",
+          "sameAs": ["https://instagram.com/gabrielegarbin", "https://linktr.ee/gabrielegarbinpsi"]
+        },
+        "publisher": {
+          "@type": "Person",
+          "name": "Gabriele Garbin"
+        }
+      }
+    </script>
+
+    <style>
+      /* === Custom Properties === */
+      :root {
+        --gold: #c9a96e;
+        --gold-light: #e8d5a8;
+        --gold-bg: rgba(201, 169, 110, 0.08);
+        --dark: #1a1a1a;
+        --body: #2c2c2c;
+        --muted: #666;
+        --bg: #fafaf8;
+        --surface: #fff;
+        --border: #e8e4dc;
+        --radius: 8px;
+        --max-w: 760px;
+      }
+
+      /* === Reset & Base === */
+      *,
+      *::before,
+      *::after {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      html {
+        scroll-behavior: smooth;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        text-rendering: optimizeLegibility;
+      }
+
+      body {
+        font-family: Georgia, serif;
+        line-height: 1.8;
+        color: var(--body);
+        background-color: var(--bg);
+      }
+
+      /* === Layout === */
+      .container {
+        max-width: var(--max-w);
+        margin: 0 auto;
+        padding: 0 24px;
+      }
+
+      /* === Hero === */
+      .hero {
+        padding: 64px 24px 48px;
+        padding-top: calc(64px + env(safe-area-inset-top));
+        text-align: center;
+      }
+
+      .hero-inner {
+        max-width: var(--max-w);
+        margin: 0 auto;
+      }
+
+      .hero-label {
+        display: inline-block;
+        font-size: 0.75rem;
+        font-family:
+          system-ui,
+          -apple-system,
+          sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 2.5px;
+        color: var(--gold);
+        margin-bottom: 20px;
+        padding: 6px 16px;
+        border: 1px solid var(--gold-light);
+        border-radius: 20px;
+      }
+
+      .hero h1 {
+        font-size: clamp(1.6rem, 4vw, 2.2rem);
+        color: var(--dark);
+        line-height: 1.3;
+        margin-bottom: 20px;
+        font-weight: 700;
+      }
+
+      .hero-subtitle {
+        font-size: 1.05rem;
+        color: var(--muted);
+        max-width: 560px;
+        margin: 0 auto;
+        line-height: 1.7;
+      }
+
+      .hero-divider {
+        width: 60px;
+        height: 2px;
+        background: var(--gold);
+        margin: 32px auto 0;
+        border: none;
+      }
+
+      /* === Article === */
+      article {
+        padding: 40px 0 60px;
+      }
+
+      /* === Sections === */
+      .content-section {
+        margin-bottom: 48px;
+        opacity: 0;
+        transform: translateY(16px);
+        transition:
+          opacity 0.6s ease,
+          transform 0.6s ease;
+      }
+
+      .content-section.visible {
+        opacity: 1;
+        transform: translateY(0);
+      }
+
+      /* === Typography === */
+      h2 {
+        font-size: 1.35rem;
+        color: var(--dark);
+        margin-bottom: 20px;
+        padding-bottom: 8px;
+        border-bottom: 1px solid var(--border);
+        line-height: 1.4;
+      }
+
+      p {
+        margin-bottom: 18px;
+      }
+
+      em {
+        font-style: italic;
+        color: var(--dark);
+      }
+
+      strong {
+        color: var(--dark);
+        font-weight: 700;
+      }
+
+      /* === Callout Box === */
+      .callout {
+        background: var(--gold-bg);
+        border-left: 3px solid var(--gold);
+        padding: 20px 24px;
+        border-radius: 0 var(--radius) var(--radius) 0;
+        margin: 24px 0;
+      }
+
+      .callout p {
+        margin-bottom: 0;
+        color: var(--dark);
+        font-size: 0.98rem;
+      }
+
+      /* === Highlight Card === */
+      .highlight-card {
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-radius: var(--radius);
+        padding: 28px;
+        margin: 24px 0;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+      }
+
+      .highlight-card p {
+        margin-bottom: 0;
+      }
+
+      /* === Lists === */
+      ul,
+      ol {
+        margin: 16px 0 20px 0;
+        padding: 0;
+        list-style: none;
+      }
+
+      ul li,
+      ol li {
+        position: relative;
+        padding-left: 24px;
+        margin-bottom: 12px;
+        line-height: 1.7;
+      }
+
+      ul li::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 10px;
+        width: 8px;
+        height: 8px;
+        background: var(--gold);
+        border-radius: 50%;
+      }
+
+      ol {
+        counter-reset: item;
+      }
+
+      ol li {
+        counter-increment: item;
+        padding-left: 32px;
+      }
+
+      ol li::before {
+        content: counter(item);
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 24px;
+        height: 24px;
+        background: var(--gold);
+        color: var(--surface);
+        font-family:
+          system-ui,
+          -apple-system,
+          sans-serif;
+        font-size: 0.75rem;
+        font-weight: 700;
+        line-height: 24px;
+        text-align: center;
+        border-radius: 50%;
+      }
+
+      /* === Pull Quote === */
+      .pull-quote {
+        font-size: 1.15rem;
+        color: var(--dark);
+        text-align: center;
+        padding: 32px 20px;
+        margin: 32px 0;
+        border-top: 1px solid var(--border);
+        border-bottom: 1px solid var(--border);
+        font-style: italic;
+        line-height: 1.7;
+      }
+
+      /* === Footer === */
+      footer {
+        margin-top: 0;
+        padding: 32px 24px;
+        padding-bottom: calc(32px + env(safe-area-inset-bottom));
+        border-top: 1px solid var(--border);
+        text-align: center;
+      }
+
+      .footer-inner {
+        max-width: var(--max-w);
+        margin: 0 auto;
+      }
+
+      .footer-author {
+        font-size: 0.85rem;
+        font-family:
+          system-ui,
+          -apple-system,
+          sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 1.5px;
+        color: var(--muted);
+        margin-bottom: 8px;
+      }
+
+      .footer-name {
+        font-size: 1.1rem;
+        color: var(--dark);
+        font-weight: 700;
+        margin-bottom: 12px;
+      }
+
+      .footer-links {
+        display: flex;
+        gap: 24px;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+
+      .footer-links a {
+        color: var(--gold);
+        text-decoration: none;
+        font-size: 0.9rem;
+        transition: color 0.2s ease;
+        min-height: 44px;
+        display: inline-flex;
+        align-items: center;
+        padding: 8px 4px;
+      }
+
+      .footer-links a:hover {
+        color: var(--dark);
+        text-decoration: underline;
+      }
+
+      /* === Focus Styles === */
+      a:focus-visible {
+        outline: 2px solid var(--gold);
+        outline-offset: 2px;
+        border-radius: 2px;
+      }
+
+      /* === Reduced Motion === */
+      @media (prefers-reduced-motion: reduce) {
+        html {
+          scroll-behavior: auto;
+        }
+
+        .content-section {
+          opacity: 1;
+          transform: none;
+          transition: none;
+        }
+      }
+
+      /* === Responsive (phones up to 600px) === */
+      @media (max-width: 600px) {
+        .hero {
+          padding: 48px 20px 36px;
+          padding-top: calc(48px + env(safe-area-inset-top));
+        }
+
+        .hero h1 {
+          font-size: 1.5rem;
+        }
+
+        .hero-subtitle {
+          font-size: 0.95rem;
+        }
+
+        .container {
+          padding: 0 20px;
+        }
+
+        h2 {
+          font-size: 1.2rem;
+        }
+
+        .callout {
+          padding: 16px 18px;
+        }
+
+        .highlight-card {
+          padding: 20px;
+        }
+
+        .pull-quote {
+          font-size: 1.05rem;
+          padding: 24px 16px;
+        }
+
+        .footer-links {
+          flex-direction: column;
+          gap: 8px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Hero -->
+    <header class="hero">
+      <div class="hero-inner">
+        <span class="hero-label">Psicologia &amp; Autoconhecimento</span>
+        <h1>Redirecione sua Libido</h1>
+        <p class="hero-subtitle">
+          Liberdade da dependência emocional começa quando sua energia vital deixa de depender do outro para existir.
+        </p>
+        <hr class="hero-divider" />
+      </div>
+    </header>
+
+    <!-- Article -->
+    <main class="container">
+      <article>
+        <!-- Section: The Problem -->
+        <section class="content-section">
+          <p>
+            Se você só sente vitalidade quando está apaixonado ou quando recebe reconhecimento, quando tem alguém para
+            conquistar, ou quando alguém te corresponde emocionalmente, sua energia vital depende de um objeto fora da
+            sua psiquê para se ativar.
+          </p>
+
+          <div class="callout">
+            <p>
+              Uma libido excessivamente projetada para fora coloca você numa dinâmica de falta. Você sempre sente que
+              está precisando de alguma coisa: uma conquista, uma validação, um sucesso.
+            </p>
+          </div>
+        </section>
+
+        <!-- Section: Integration -->
+        <section class="content-section">
+          <h2>Integrando a libido internamente</h2>
+
+          <p>
+            Quando integramos nossa libido internamente, nossa energia deixa de depender tanto de estímulos externos e
+            passa a circular a partir de dentro da nossa própria psiquê. Na prática você sente:
+          </p>
+
+          <div class="highlight-card">
+            <ul>
+              <li>Energia para agir sem precisar de aprovação</li>
+              <li>Criatividade surge sem palco</li>
+              <li>Vontade de viver que não precisa de excitação constante</li>
+              <li>Vida cotidiana por si só gera prazer e movimento</li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- Pull Quote -->
+        <div class="content-section">
+          <p class="pull-quote">
+            É como se a fonte de energia estivesse mais conectada ao <em>Self</em> do que aos objetos externos.
+          </p>
+        </div>
+
+        <!-- Section: What Happens -->
+        <section class="content-section">
+          <h2>O que acontece quando a libido se integra</h2>
+
+          <p>Quando a libido se integra, acontecem duas coisas ao mesmo tempo:</p>
+
+          <div class="highlight-card">
+            <ul>
+              <li>Você fica mais centrado e tranquilo</li>
+              <li>Ao mesmo tempo fica mais criativo e potente</li>
+            </ul>
+          </div>
+
+          <p>
+            Isso porque a energia deixa de ser desperdiçada em projeções e começa a alimentar diretamente a própria
+            vida. E nada disso significa não se relacionar ou não desejar nada externo. Significa que:
+          </p>
+
+          <ol>
+            <li>Objetivos externos deixam de ser a fonte de energia</li>
+            <li>Eles passam a ser lugares onde a energia pode se expressar</li>
+          </ol>
+        </section>
+
+        <!-- Section: Relationships -->
+        <section class="content-section">
+          <h2>A qualidade das relações</h2>
+
+          <div class="callout">
+            <p>
+              Isso muda <strong>completamente</strong> a qualidade das relações. Os relacionamentos deixam de ser um
+              lugar onde se busca preencher um vazio e passam a ser um lugar de troca entre duas energias já vivas e
+              integradas.
+            </p>
+          </div>
+        </section>
+      </article>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-inner">
+        <p class="footer-author">Autora</p>
+        <p class="footer-name">Gabriele Garbin</p>
+        <div class="footer-links">
+          <a href="https://instagram.com/gabrielegarbin" target="_blank" rel="noopener noreferrer">@gabrielegarbin</a>
+          <a href="https://linktr.ee/gabrielegarbinpsi" target="_blank" rel="noopener noreferrer"
+            >linktr.ee/gabrielegarbinpsi</a
+          >
+        </div>
+      </div>
+    </footer>
+  </body>
+
+  <script>
+    if ("serviceWorker" in navigator) {
+      window.addEventListener("load", () => {
+        navigator.serviceWorker.register("sw.js");
+      });
+    }
+
+    // Gentle fade-in on scroll
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("visible");
+          }
+        });
+      },
+      { threshold: 0.15 },
+    );
+
+    document.querySelectorAll(".content-section").forEach((section) => {
+      observer.observe(section);
+    });
+  </script>
+</html>

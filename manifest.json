@@ -1,0 +1,19 @@
+{
+  "name": "Redirecione sua Libido – Liberdade da Dependência Emocional",
+  "short_name": "Redirecione",
+  "description": "Liberdade da Dependência Emocional",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#fafaf8",
+  "theme_color": "#c9a96e",
+  "lang": "pt-BR",
+  "icons": [
+    {
+      "src": "icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
